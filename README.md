@@ -15,7 +15,7 @@ from radar_client import RADARClient
 
 # Initialize client (contact URL is required)
 client = RADARClient(
-    base_url="http://localhost:5000",
+    base_url="https://api.radar.checkfirst.network",
     contact_url="https://yourcompany.com/contact"
 )
 
@@ -70,7 +70,7 @@ results = client.search_infringements(
 ```python
 # Use specific version
 client = RADARClient(
-    base_url="http://localhost:5000",
+    base_url="https://api.radar.checkfirst.network",
     contact_url="https://yourcompany.com/contact",
     version="1.7"
 )
@@ -128,7 +128,7 @@ from radar_client import RADARClient
 
 # Initialize
 client = RADARClient(
-    base_url="http://localhost:5000",
+    base_url="https://api.radar.checkfirst.network",
     contact_url="https://example.com/contact"
 )
 
