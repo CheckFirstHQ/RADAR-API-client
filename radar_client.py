@@ -452,7 +452,7 @@ if __name__ == "__main__":
     
     # You need to provide your own contact URL
     CONTACT_URL = "https://example.com/contact"
-    API_URL = "http://localhost:5000"
+    API_URL = "https://api.radar.checkfirst.network"
     
     try:
         # Create client
